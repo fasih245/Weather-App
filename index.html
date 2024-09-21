@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+    <link href="/dist/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="">Weather App</title>
+</head>
+<body class=" bg-cover" background="https://i.pinimg.com/736x/1b/51/8e/1b518e73835b69cb1876285878e9f29a.jpg" >
+    <div class=" text-center pt-6 ">
+    <h1 class="text-6xl text-white mb-6">Weather App</h1>
+    <div class="pt-2"><input id="city-search" type="text" placeholder="Enter City Name" class="text-center border-none hover:border-solid rounded-md"></div>
+    <button id="search-btn" class="mt-3 bg-sky-500/100 hover:bg-cyan-600 rounded-md w-20">Search</button>
+</div>
+<div class=" flex justify-center ">
+
+    <div class=" text-white rounded-2xl h-6/7 mt-3 w-2/6 flex justify-center bg-contain  	bg-gray-700 bg-opacity-50 hover:bg-opacity-100 ">
+        <div class="justify-start pl-5">
+        <h3 id="city-Name" class="text-3xl"></h3>
+        <h6 id="city-Time"></h6>
+        <h2 id="icon" class=""></h2>
+        <h4 id="city-Condition"></h4>
+    </div>
+        <div class="justify-end flex items-center pl-20">
+        <h6 id="city-Temp" class="text-3xl"></h6>
+       </div>
+    </div>
+    
+</div><!-- <p class="font-bold underline">abc</p> -->
+
+
+
+
+
+
+
+
+    <script  src="index.js"></script>
+</body>
+</html>

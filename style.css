@@ -1,0 +1,16 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('path/to/your/clouds.png') repeat-x;
+    opacity: 0.3;
+    animation: float 30s linear infinite;
+}
